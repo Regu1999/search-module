@@ -1,0 +1,136 @@
+[
+    {
+      "name": "Margherita Pizza",
+      "restorentName": "Italiano Pizzeria",
+      "avatar": "https://avatars.githubusercontent.com/u/76503605",
+      "rating": "4.5",
+      "review": []
+    },
+    {
+      "name": "Cheeseburger",
+      "restorentName": "Burger Haven",
+      "avatar": "https://avatars.githubusercontent.com/u/11846765",
+      "rating": "4",
+      "review": []
+    },
+    {
+      "name": "Chicken Biryani",
+      "restorentName": "Spice Kitchen",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/2.jpg",
+      "rating": "4.5",
+      "review": []
+    },
+    {
+      "name": "Sushi Roll",
+      "restorentName": "Tokyo Bites",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/87.jpg",
+      "rating": "4.2",
+      "review": []
+    },
+    {
+      "name": "Tacos",
+      "restorentName": "Mexican Delight",
+      "avatar": "https://avatars.githubusercontent.com/u/25236741",
+      "rating": "4.3",
+      "review": []
+    },
+    {
+      "name": "Paneer Butter Masala",
+      "restorentName": "Curry House",
+      "avatar": "https://avatars.githubusercontent.com/u/26176576",
+      "rating": "4.6",
+      "review": []
+    },
+    {
+      "name": "Pad Thai",
+      "restorentName": "Thai Express",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/30.jpg",
+      "rating": "4",
+      "review": []
+    },
+    {
+      "name": "Fish & Chips",
+      "restorentName": "London Bites",
+      "avatar": "https://avatars.githubusercontent.com/u/66950128",
+      "rating": "3.8",
+      "review": []
+    },
+    {
+      "name": "Shawarma",
+      "restorentName": "Middle East Flavors",
+      "avatar": "https://avatars.githubusercontent.com/u/51626596",
+      "rating": "4.4",
+      "review": []
+    },
+    {
+      "name": "Caesar Salad",
+      "restorentName": "Healthy Bites",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/0.jpg",
+      "rating": "3.9",
+      "review": []
+    },
+    {
+      "name": "Pasta Alfredo",
+      "restorentName": "Pasta Paradise",
+      "avatar": "https://avatars.githubusercontent.com/u/66038505",
+      "rating": "4.1",
+      "review": []
+    },
+    {
+      "name": "Grilled Chicken",
+      "restorentName": "Grill House",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/16.jpg",
+      "rating": "4.3",
+      "review": []
+    },
+    {
+      "name": "French Fries",
+      "restorentName": "Crispy Bites",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/93.jpg",
+      "rating": "4.0",
+      "review": []
+    },
+    {
+      "name": "BBQ Ribs",
+      "restorentName": "Smokehouse BBQ",
+      "avatar": "https://avatars.githubusercontent.com/u/91630440",
+      "rating": "4.7",
+      "review": []
+    },
+    {
+      "name": "Dumplings",
+      "restorentName": "Asian Bites",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/38.jpg",
+      "rating": "4.5",
+      "review": []
+    },
+    {
+      "name": "Club Sandwich",
+      "restorentName": "Cafe Delights",
+      "avatar": "https://avatars.githubusercontent.com/u/30073133",
+      "rating": "3.9",
+      "review": []
+    },
+    {
+      "name": "Chocolate Cake",
+      "restorentName": "Sweet Treats",
+      "avatar": "https://avatars.githubusercontent.com/u/88822685",
+      "rating": "4.8",
+      "review": []
+    },
+    {
+      "name": "Falafel Wrap",
+      "restorentName": "Vegan Delights",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/52.jpg",
+      "rating": "4.2",
+      "review": []
+    },
+    {
+      "name": "Mango Smoothie",
+      "restorentName": "Juice Corner",
+      "avatar": "https://avatars.githubusercontent.com/u/88077765",
+      "rating": "4.1",
+      "review": []
+    }
+  ]
+  

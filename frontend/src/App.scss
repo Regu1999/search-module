@@ -1,0 +1,42 @@
+@use "./style/mixins" as m;
+@use "./style/variables.scss" as v;
+@use "./style/reset.scss";
+@use "./style/card.scss";
+
+
+.icon-style {
+    color: v.$primary-color;
+    font-size: 1.5rem;
+    font-weight: bold
+}
+.flex-container{
+    @include m.flex-container;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem
+}
+.search-container {
+    @include m.flex-container;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.search-container > div {
+    background-color: v.$primary-bg-color;
+    padding: .5rem;
+    border-radius: 8px;
+}
+.search-child{
+    @include m.flex-container;
+    flex-grow: 2;
+    gap: 1rem;
+} 
+
+#search{
+    border: none;
+    height: 100%;
+    flex-grow: 2;
+    width: 100%;
+}

@@ -1,0 +1,73 @@
+@use "./mixins" as m;
+
+.card-list {
+    margin-top: .5rem;
+    width: 150px;
+    font-size: .8rem;
+
+    .img-container {
+        width: 100%;
+        height: 110px;
+        margin-bottom: .5rem;
+    }
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.yellow-Btn {
+    color: #bbbb00;
+    font-weight: bold;
+    padding: .5rem;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.yellow-Btn:hover {
+    background-color: #bbbb00;
+    color: rgb(247, 247, 247);
+}
+
+.list-container {
+    margin-top: .5rem;
+    @include m.flex-container;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.listItem {
+    box-shadow: 5px 8px 10px 0px rgb(221, 221, 221);
+    width: 100%;
+    display: flex;
+    max-width: 20rem;
+    gap: 1rem;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100px;
+
+    .img-container {
+        width: 150px;
+    }
+
+    .list-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+
+        .star-icon {
+            font-size: 1rem;
+            color: rgba(225, 225, 6, 0.733);
+        }
+    }
+}
+
+h5,
+.rating {
+    font-weight: 500;
+    color: rgb(172, 169, 169);
+}
