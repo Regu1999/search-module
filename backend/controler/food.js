@@ -22,7 +22,7 @@ router.get('/search', async (req, res) => {
         res.cookie("searchHitory", JSON.stringify(productId), {
             maxAge: 900000, 
             httpOnly: true, 
-            secure: false, 
+            secure: true, 
         })
         res.send(searchData)
     } catch (error) {
