@@ -1,7 +1,7 @@
 import { QueryClient } from "@tanstack/react-query"
 export const queryClient = new QueryClient();
 // const api_url = "http://localhost:3000/";
-const api_url = "https://search-module.vercel.app//";
+const api_url = "https://search-module.vercel.app/";
 export const fetchProduct = async () => {
     try {
         const response = await fetch(api_url, {
