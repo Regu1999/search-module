@@ -6,12 +6,13 @@ const cors = require("cors")
 
 const { runDb } = require("./util/database")
 const foodRouter = require("./controler/food")
-
+const origin='https://search-module-q13k.vercel.app/' 
+// const origin='http://localhost:5173' 
 const app = express();
 const PORT = process.env.PORT
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: origin,
   credentials: true,
 }));
 
