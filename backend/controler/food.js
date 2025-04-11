@@ -23,7 +23,7 @@ router.get('/search', async (req, res) => {
             maxAge: 900000, 
             httpOnly: true, 
             secure: true, 
-            SameSite:'Lax'
+            sameSite: 'None'
         })
         res.send(searchData)
     } catch (error) {
