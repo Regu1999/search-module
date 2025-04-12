@@ -42,7 +42,7 @@ const SearchContainer = () => {
             <div className="search-container">
                 <div className="search-child">
                     <div><IoSearchSharp className="icon-style" /></div>
-                    <input ref={search} onChange={handleSearchValue} type="search" name="search" placeholder="Search hear with food name or rating " id="search" />
+                    <input ref={search} onChange={handleSearchValue} type="search" name="search" placeholder="Search here" id="search" />
                     <button><HiOutlineMicrophone className="icon-style" /></button>
                 </div>
                 <div>
